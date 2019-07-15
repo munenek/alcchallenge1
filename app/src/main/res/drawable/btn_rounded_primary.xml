@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:bottom="@dimen/spacing_xxsmall" android:left="@dimen/spacing_xxsmall" android:right="@dimen/spacing_xxsmall" android:top="@dimen/spacing_xxsmall">
+                <shape android:shape="rectangle">
+                    <corners android:bottomLeftRadius="@dimen/btn_rounded_corner_radius" android:bottomRightRadius="@dimen/btn_rounded_corner_radius" android:topLeftRadius="@dimen/btn_rounded_corner_radius" android:topRightRadius="@dimen/btn_rounded_corner_radius" />
+                    <solid android:color="@color/amber_300" />
+                    <size android:width="@dimen/btn_rounded_width" android:height="@dimen/btn_rounded_height" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item android:state_focused="true">
+        <layer-list>
+            <item android:bottom="@dimen/spacing_xxsmall" android:left="@dimen/spacing_xxsmall" android:right="@dimen/spacing_xxsmall" android:top="@dimen/spacing_xxsmall">
+                <shape android:shape="rectangle">
+                    <corners android:bottomLeftRadius="@dimen/btn_rounded_corner_radius" android:bottomRightRadius="@dimen/btn_rounded_corner_radius" android:topLeftRadius="@dimen/btn_rounded_corner_radius" android:topRightRadius="@dimen/btn_rounded_corner_radius" />
+                    <solid android:color="@color/amber_600" />
+                    <size android:width="@dimen/btn_rounded_width" android:height="@dimen/btn_rounded_height" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <item>
+        <layer-list>
+            <item android:bottom="@dimen/spacing_xxsmall" android:left="@dimen/spacing_xxsmall" android:right="@dimen/spacing_xxsmall" android:top="@dimen/spacing_xxsmall">
+                <shape android:shape="rectangle">
+                    <corners android:bottomLeftRadius="@dimen/btn_rounded_corner_radius" android:bottomRightRadius="@dimen/btn_rounded_corner_radius" android:topLeftRadius="@dimen/btn_rounded_corner_radius" android:topRightRadius="@dimen/btn_rounded_corner_radius" />
+                    <solid android:color="@color/amber_100" />
+                    <size android:width="@dimen/btn_rounded_width" android:height="@dimen/btn_rounded_height" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ALC 4 Phase 1</string>
+    <string name="about_alc">About Alc</string>
+    <string name="my_profile">My Profile</string>
+    <string name="welcome_to_alc">Welcome to ALC 4.0</string>
+    <string name="title_activity_about_alc">About ALC</string>
+    <string name="phone_label">Phone:</string>
+    <string name="slack_id_label">Slack ID:</string>
+    <string name="email_label">Email:</string>
+    <string name="country_label">Country:</string>
+    <string name="track_label">Track:</string>
+    <string name="country">Ghana</string>
+    <string name="track">Android</string>
+    <string name="email">coded_raf@yahoo.com</string>
+    <string name="phone">+233205843690</string>
+    <string name="slack_id">\u0040coded_raf</string>
+    <string name="description">Android Developer</string>
+    <string name="full_name">Aziz Rafsanjani</string>
+</resources>
